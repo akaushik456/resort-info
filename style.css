@@ -20,6 +20,7 @@ ul{
 a{
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 header{
     width: 100%;
@@ -75,7 +76,7 @@ nav{
     background-size: cover;
     position: relative;
     background-attachment: fixed;
-    height: 100vh;
+    height: 600px;
     background-image: url(./images/banner.avif);
     top: 0;
 }
@@ -84,7 +85,7 @@ nav{
     content: "0";
     background: #000;
     position: absolute;
-    height: 100vh;
+    height: 600px;
     z-index: 1;
     width: 100%;
     top: 0;
@@ -117,6 +118,9 @@ video {
     position: relative;
     text-align: center;
     color: #fff;
+}
+.css-text{
+    width: 100%;
     padding-top: 20%;
 }
 .banner-text h1{
@@ -128,7 +132,7 @@ video {
 
 }
 .banner-text p{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #aaa;
     margin-top: 1rem;
 }
@@ -138,9 +142,9 @@ video {
 .button a{
     color: #fff;
     border: 1px solid #F24259;
-    border-radius: 6px;
+    border-radius: 5px;
     padding: 7px 21px;
     background: #F24259;
-    font-size: 1.1rem;    
+    font-size: 1rem;    
     font-weight: lighter;
 }
