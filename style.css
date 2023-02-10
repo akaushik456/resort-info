@@ -148,3 +148,70 @@ video {
     font-size: 1rem;    
     font-weight: lighter;
 }
+.icons-banner{
+    width: 100%;
+    background: #f1f1f1;
+    height: 650px;
+}
+.resto-level{
+    width: 100%;
+    padding-top: 7%;
+}
+.restro-typo{
+    width: 100%;
+    display: flex;
+}
+.flex-wrap{
+    width: 100%;
+    display: flex;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.resto-level h1{
+    margin-bottom: 60px;
+    font-size: 2rem;
+    color: #dc3545;
+    font-weight: lighter;
+    border-bottom: 1px solid wheat;
+    display: inline-block;
+}
+.icons li{
+    width: 32%;
+    height: 200px;
+    text-align: center;
+    background: #fefefe;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.icons li i{
+    font-size: 2.5rem;
+    padding-top: 25px;
+    text-align: center;
+    height: 90px;  
+    transition: .2s all ease-in;
+    color: #F24259;
+}
+.icons li i:hover{
+    color: #000;
+}
+.icons-text{
+    width: 100%;
+}
+.flex-texts{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.flex-texts h3{
+    font-weight: lighter;
+}
+.flex-texts p{
+    color: grey;
+    letter-spacing: 1px;
+    margin-top: 14px;
+    padding: 0 10px;
+}
