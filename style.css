@@ -172,7 +172,7 @@ video {
     align-items: center;
     justify-content: space-between;
 }
-.resto-level h1{
+.resort-head{
     margin-bottom: 60px;
     font-size: 2rem;
     color: #dc3545;
@@ -214,4 +214,70 @@ video {
     letter-spacing: 1px;
     margin-top: 14px;
     padding: 0 10px;
+}
+
+
+.images-rows{
+    width: 100%;
+    padding-top: 5%;
+}
+.flex-images{
+    display: flex;
+    width: 100%;
+}
+.flex-ul-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-ul-img li{
+    margin-bottom: 10px;
+    width: 33%;
+    overflow: hidden;
+}
+.flex-ul-img li img{
+    width: 100%;
+    height: 225px;
+    transition: transform .2s ease;
+}
+.hover-in-image{
+    width: 100%;
+    position: relative;
+}
+.hover-in-image::before{
+    content: "0";
+    position: absolute;
+    width: 100%;
+    height: 225px;
+    top: 0;
+    background: #000;
+    opacity: 0.4;
+    z-index: 2;
+}
+.hover-in-image:hover{
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+    overflow: hidden;
+}
+.hover-text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    opacity: 0;
+    z-index: 2;
+    transition: .2s all ease-in;
+}
+.hover-text p{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.hover-in-image:hover .hover-text{
+    opacity: 2;
+    overflow: hidden;
+    transition: .2s all ease-in;
+    bottom: 30px;
 }
