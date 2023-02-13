@@ -5,5 +5,5 @@ $('.reviews-names').slick({
     arrows: false, 
     dots: false,
     autoplay:true,
-    autoplaySpeed:800
+    autoplaySpeed:2000
 });
